@@ -1,10 +1,7 @@
 // Test script 
 
-document.getElementById("printheader").onload = function() {aTestAlert()};
+   alert("Hello! I am an alert box!");
 
-function aTestAlert() {
-   alert("Script is loaded");
-}
 // End Test script
 
 /*
