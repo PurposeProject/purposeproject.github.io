@@ -1,3 +1,13 @@
+// Test script 
+
+document.getElementById("printheader").onload = function() {aTestAlert()};
+
+function aTestAlert() {
+   alert("Script is loaded");
+}
+// End Test script
+
+/*
 // Textbox Auto Resize
 
 //const tx = document.getElementsByTagName("textarea");
@@ -11,4 +21,4 @@ function OnInput() {
   this.style.height = "auto";
   this.style.height = (this.scrollHeight) + "px";
 }   
-  
+ */ 
