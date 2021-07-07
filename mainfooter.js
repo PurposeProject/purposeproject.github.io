@@ -55,7 +55,7 @@ function downloadURI(uri, name) {
 // End Print
 
 
-// Textbox Auto Resize
+// Textbox Auto Resize..
 jQuery(window).on("load", function () {
   const tx = document.getElementsByTagName("textarea");
   for (let i = 0; i < tx.length; i++) {
