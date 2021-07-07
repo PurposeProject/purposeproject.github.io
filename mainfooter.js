@@ -1,4 +1,4 @@
-// Print Activity (Download Button) and save as image
+// Print Activity (Download Button) and save as image..
 $("#print").click(function() { PrintDiv(); });
 $("#print2").click(function() { PrintDiv2(); });  
   
