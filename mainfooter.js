@@ -54,4 +54,25 @@ function downloadURI(uri, name) {
 
 // End Print
 
+// Complete Animated Button 
 
+let animateCompleteButton = function (e) {
+  e.preventDefault;
+  //reset animation
+  e.target.classList.remove("animate");
+
+  e.target.classList.add("animate");
+  
+  setTimeout(function () {
+    e.target.classList.remove("animate");
+  }, 700);
+};
+
+let classname = document.getElementsByClassName("anim-confetti-button");
+
+for (let i = 0; i < classname.length; i++) {
+
+	classname[i].addEventListener("mouseover", animateCompleteButton, false);
+	
+  
+}
