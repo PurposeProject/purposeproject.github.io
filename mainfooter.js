@@ -55,40 +55,6 @@ function downloadURI(uri, name) {
 // End Print
 
 
-
-
-// Complete Button Animation
-
-var animateCompleteButton = function (e) {
-  e.preventDefault;
-  //reset animation
-  e.target.classList.remove("animate");
-
-  e.target.classList.add("animate");
-
-  setTimeout(function () {
-    e.target.classList.remove("animate");
-
-    document.getElementById("activityCompleteButton").style.display = "none";
-    document.getElementById("activityIsCompleteButton").style.display = "inline";
-  }, 700);
-
-  document.getElementById("activityCompleteButton").innerHTML = "ACTIVITY COMPLETED";
-  document.getElementById("activityCompleteButton").style.backgroundColor = "#2a3c63";
-  document.getElementById("activityCompleteButton").style.border = "none";
-};
-
-var classname = document.getElementsByClassName("anim-confetti-button");
-
-for (var i = 0; i < classname.length; i++) {
-  classname[i].addEventListener("click", animateCompleteButton, false);
-}
-
-
-
-
-//////////////////////////////////////////////////////////
-/*
 // Complete Animated Button 
 document.getElementsByClassName("anim-confetti-button").classList.remove("animate");
 document.getElementsByClassName("anim-confetti-button").ofsettWidth;
@@ -120,4 +86,4 @@ for (let i = 0; i < classname.length; i++) {
 	classname[i].addEventListener("ontouchmove", animateCompleteButton, false);
 	
   
-} */
+} 
