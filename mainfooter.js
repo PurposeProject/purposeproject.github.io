@@ -55,6 +55,12 @@ function downloadURI(uri, name) {
 // End Print
 
 // Complete Animated Button 
+document.getElementsByClassName("anim-confetti-button").classList.remove("animate");
+document.getElementsByClassName("anim-confetti-button").ofsettWidth;
+document.getElementsByClassName("anim-confetti-button").classList.add("animate");
+setTimeout(function () {
+    document.getElementsByClassName("anim-confetti-button").classList.remove("animate");
+  }, 700);
 
 let animateCompleteButton = function (e) {
   e.preventDefault;
