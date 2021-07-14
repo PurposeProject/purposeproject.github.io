@@ -72,12 +72,11 @@ let classname = document.getElementsByClassName("anim-confetti-button");
 
 for (let i = 0; i < classname.length; i++) {
 
-	classname[i].addEventListener("mousedown", animateCompleteButton, false);
-	/*
+	
 	classname[i].addEventListener("mouseover", animateCompleteButton, false);
 	classname[i].addEventListener("ontouchcancel", animateCompleteButton, false);
 	classname[i].addEventListener("ontouchend", animateCompleteButton, false);
 	classname[i].addEventListener("ontouchstart", animateCompleteButton, false);
-	*/
+	
   
 }
