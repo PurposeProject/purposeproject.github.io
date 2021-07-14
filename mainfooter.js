@@ -73,6 +73,7 @@ let classname = document.getElementsByClassName("anim-confetti-button");
 for (let i = 0; i < classname.length; i++) {
 
 	classname[i].addEventListener("mouseover", animateCompleteButton, false);
+	classname[i].addEventListener("touchstart", animateCompleteButton, false);
 	
   
 }
