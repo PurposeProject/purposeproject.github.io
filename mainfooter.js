@@ -69,7 +69,7 @@ let animateCompleteButton = function (e) {
 };
 
 let classname = document.getElementsByClassName("anim-confetti-button");
-
+classname.classList.add("animate");
 for (let i = 0; i < classname.length; i++) {
 
 	
