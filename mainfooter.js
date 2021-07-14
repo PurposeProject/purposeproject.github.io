@@ -69,10 +69,10 @@ let animateCompleteButton = function (e) {
 };
 
 let classname = document.getElementsByClassName("anim-confetti-button");
-classname.classList.add("animate");
+
 for (let i = 0; i < classname.length; i++) {
 
-	
+	classname[i].animateCompleteButton();
 	classname[i].addEventListener("mouseover", animateCompleteButton, false);
 	classname[i].addEventListener("ontouchcancel", animateCompleteButton, false);
 	classname[i].addEventListener("ontouchend", animateCompleteButton, false);
