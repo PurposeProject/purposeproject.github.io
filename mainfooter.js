@@ -74,6 +74,7 @@ for (let i = 0; i < classname.length; i++) {
 
 	classname[i].addEventListener("mouseover", animateCompleteButton, false);
 	classname[i].addEventListener("ontouchcancel", animateCompleteButton, false);
+	classname[i].addEventListener("ontouchend", animateCompleteButton, false);
 	
   
 }
