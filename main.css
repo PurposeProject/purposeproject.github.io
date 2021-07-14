@@ -46,6 +46,27 @@
   -webkit-appearance: none;
   appearance: none;
   align-items: center;
+  border: 2px solid #f38066;
+  border-radius: 100px;
+  background-color: white;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #f38066;
+  position: relative; 
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.95s;
+}
+
+/*
+.anim-confetti-button {
+  
+  width: 250px;
+  height: 40px;
+  display: inline-block;
+  font-size: 15px;
+  -webkit-appearance: none;
+  appearance: none;
+  align-items: center;
   border: 0px solid #f38066;
   border-radius: 100px;
   background-color: #2a3c63;
@@ -55,7 +76,7 @@
   color: white;
   position: relative; 
   transition: transform ease-in 0.1s, box-shadow ease-in 0.95s;
-}
+}*/
 
 .anim-confetti-button:focus {
   outline: 0;
