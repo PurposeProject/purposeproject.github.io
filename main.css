@@ -23,7 +23,7 @@
   text-transform: uppercase;
   color: #f38066;
   position: relative; 
-  transition: transform ease-in 0.1s, box-shadow ease-in 0.95s;
+  transition: transform ease-in 0.8s, box-shadow ease-in 0.95s;
 }
 
 .anim-complete-button:hover {
