@@ -53,7 +53,8 @@ function downloadURI(uri, name) {
 }
 
 // End Print
-/*
+
+
 // Complete Button Animation
 
 var animateCompleteButton = function (e) {
@@ -95,8 +96,9 @@ for (var i = 0; i < classname.length; i++) {
   classname2[i].addEventListener("click", animateCompleteButtonUndo, false);
 }
 //////////////////////////////////////end test feature////////////////////////////
-*/
 
+
+/*
 // Complete Animated Button 
 
 let animateCompleteButton = function (e) {
@@ -123,3 +125,4 @@ for (let i = 0; i < classname.length; i++) {
 	
   
 }  
+*/
