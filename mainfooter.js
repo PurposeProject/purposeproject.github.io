@@ -55,50 +55,6 @@ function downloadURI(uri, name) {
 // End Print
 
 
-// Complete Button Animation
-
-var animateCompleteButton = function (e) {
-  e.preventDefault;
-  //reset animation
-  e.target.classList.remove("animate");
-
-  e.target.classList.add("animate");
-
-  setTimeout(function () {
-    e.target.classList.remove("animate");
-
-    document.getElementById("activityCompleteButton").style.display = "none";
-    document.getElementById("activityIsCompleteButton").style.display = "inline";
-  }, 700);
-
-  document.getElementById("activityCompleteButton").innerHTML = "ACTIVITY COMPLETED";
-  document.getElementById("activityCompleteButton").style.backgroundColor = "#2a3c63";
-  document.getElementById("activityCompleteButton").style.border = "none";
-  document.getElementById("activityCompleteButton").style.color = "white";
-};
-
-var animateCompleteButtonUndo = function (e) {
-  document.getElementById("activityCompleteButton").style.display = "inline";
-  document.getElementById("activityIsCompleteButton").style.display = "none";
-
-  document.getElementById("activityCompleteButton").innerHTML = "COMPLETE ACTIVITY";
-  document.getElementById("activityCompleteButton").style.backgroundColor = "white";
-  document.getElementById("activityCompleteButton").style.border = "2px solid #f38066";
-  document.getElementById("activityCompleteButton").style.color = "#f38066";
-};
-
-var classname = document.getElementsByClassName("anim-confetti-button");
-var classname2 = document.getElementsByClassName("anim-initial-button");
-
-for (var i = 0; i < classname.length; i++) {
-  classname[i].addEventListener("click", animateCompleteButton, false);
-
-  classname2[i].addEventListener("click", animateCompleteButtonUndo, false);
-}
-//////////////////////////////////////end test feature////////////////////////////
-
-
-/*
 // Complete Animated Button 
 
 let animateCompleteButton = function (e) {
@@ -125,4 +81,4 @@ for (let i = 0; i < classname.length; i++) {
 	
   
 }  
-*/
+
