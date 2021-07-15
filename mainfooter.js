@@ -88,7 +88,7 @@ var animateCompleteButtonUndo = function (e) {
 };
 
 var classname = document.getElementsByClassName("anim-confetti-button");
-var classname2 = document.getElementsByClassName("activity-complete-button");
+var classname2 = document.getElementsByClassName("anim-initial-button");
 
 for (var i = 0; i < classname.length; i++) {
   classname[i].addEventListener("click", animateCompleteButton, false);
