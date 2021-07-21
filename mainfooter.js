@@ -84,40 +84,25 @@ for (let i = 0; i < classname.length; i++) {
 
 
 
-// create selection(Sharing Strengths) in memberstack
-  const selectThisStrength = function(strength) {
-    let sharingStrengthsFromDb = localMemberData.strengths || [];
-    sharingStrengthsFromDb.push(strength);
-    
-    let strengthsJson = {
-      'strengths': sharingStrengthsFromDb
-    }
-    localMember.updateMetaData(strengthsJson);
-    $('.strengths-incomplete').hide();
-    $('.strengths-complete').show();
-  }
-  $('.selectMe').click(function() {
-    let strength = "appreciationOfBeauty";
-    //let strength = $('a').data('strength');
-    selectThisStrength(strength);
-  });
 
-/*
-// create bookmark in memberstack
-  const bookmarkThisActivity = function(activity) {
-    let bookmarksFromDb = localMemberData.bookmarks || [];
-    bookmarksFromDb.push(activity);
+// create strengths in memberstack
+  const selectThisStrength = function(strength) {
+	  
+    let strengthsFromDb = localMemberData.sharingStrengths || [];
+    strengthsFromDb.push(strength);
     
-    let bookmarksJson = {
-      'bookmarks': bookmarksFromDb
-    }
-    localMember.updateMetaData(bookmarksJson);
-    $('.bookmark-incomplete').hide();
-    $('.bookmark-complete').show();
+    let strengthJson = {'sharingStrengths': strengthsFromDb};
+    
+    localMember.updateMetaData(strengthsJson);
+    /*$('.bookmark-incomplete').hide();
+    $('.bookmark-complete').show();*/
+	  
   }
-  $('#bookmarkMe').click(function() {
-    let activity = $('body').data('activity');
-    bookmarkThisActivity(activity);
-  }); */
+  
+  $('#selectMe').click(function() {
+	  
+    let strength = $('a').data('strength');
+    selectThisStrength(strength);
+  }); 
 
 
