@@ -85,24 +85,24 @@ for (let i = 0; i < classname.length; i++) {
 
 
 
-// create strengths in memberstack
-  const selectThisStrength = function(strength) {
+// // create strengths in memberstack
+//   const selectThisStrength = function(strength) {
 	  
-    let strengthsFromDb = localMemberData.sharingStrengths || [];
-    strengthsFromDb.push(strength);
+//     let strengthsFromDb = localMemberData.sharingStrengths || [];
+//     strengthsFromDb.push(strength);
     
-    let strengthJson = {'sharingStrengths': strengthsFromDb};
+//     let strengthJson = {'sharingStrengths': strengthsFromDb};
     
-    localMember.updateMetaData(strengthsJson);
-    /*$('.bookmark-incomplete').hide();
-    $('.bookmark-complete').show();*/
+//     localMember.updateMetaData(strengthsJson);
+//     /*$('.bookmark-incomplete').hide();
+//     $('.bookmark-complete').show();*/
 	  
-  }
+//   }
   
-  $('#selectMe').click(function() {
+//   $('#selectMe').click(function() {
 	  
-    let strength = $('a').data('strength');
-    selectThisStrength(strength);
-  }); 
+//     let strength = $('a').data('strength');
+//     selectThisStrength(strength);
+//   }); 
 
 
