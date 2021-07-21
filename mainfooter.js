@@ -97,7 +97,8 @@ for (let i = 0; i < classname.length; i++) {
     $('.strengths-complete').show();
   }
   $('.selectMe').click(function() {
-    let strength = $('a').data('strength');
+    let strength = "appreciationOfBeauty";
+    //let strength = $('a').data('strength');
     selectThisStrength(strength);
   });
 
