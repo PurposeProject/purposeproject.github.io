@@ -5897,7 +5897,12 @@
     <script>
       
       let s = document.getElementById("starthere_btn");
-      s.style.display = "none";
+      /*s.style.display = "none";*/
+      s.addEventListener("click", myFunction);
+
+      function myFunction() {
+  s.style.display = "none";
+}
       
     </script>
 
