@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -15,17 +15,7 @@
       viewBox="0 0 1510.44 2193.49"
     >
      
-      <script type="text/ecmascript"><![CDATA[
-      
-          let s = document.getElementById("starthere_btn");
-             
-          s.addEventListener("click", myFunction);
-          function myFunction() {
-            s.style.display = "none";
-          }
-          
-          ]]>
-      </script>
+     
       
       
       <defs>
@@ -5910,7 +5900,18 @@
         </g>
       </g>
 
-  
+     <script type="text/ecmascript"><![CDATA[
+      
+          let s = document.getElementById("starthere_btn");
+             
+          s.addEventListener("click", myFunction);
+          
+          function myFunction() {
+            s.style.display = "none";
+          }
+          
+          ]]>
+      </script>
 
     
     </svg>
@@ -5918,4 +5919,20 @@
     
 </body>
 
-</html>
+</html>-->
+
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='600' width='820'>
+
+  <script type="text/ecmascript"><![CDATA[
+      function changerect(evt) {
+        var svgobj=evt.target;
+        svgobj.style.opacity= 0.3;
+        svgobj.setAttribute ('x', 300);
+      }
+    ]]>
+  </script>
+
+  <rect onclick='changerect(evt)' style='fill:blue;opacity:1' x='10' y='30' width='100'height='100' />
+</svg>
