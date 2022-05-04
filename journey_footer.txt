@@ -1,0 +1,31 @@
+(function () { // Begin scoping function;invisible outside the scoping function
+    let yourGlobalVariable = "global value";
+
+    function display() {
+        console.log(yourGlobalVariable);
+    }
+    display();
+
+/*
+    let localJourneyMember;
+    let localJourneyMemberData;
+    // checks to see if member is logged in... then does stuff
+    MemberStack.onReady.then(async function (member) {
+        // assign the logged-in member to our localMember variable
+        localJourneyMember = member;
+        localJourneyMemberData = await member.getMetaData();
+        console.log(localJourneyMember.)
+
+    });
+
+
+*/
+
+
+
+
+
+
+
+
+})();
